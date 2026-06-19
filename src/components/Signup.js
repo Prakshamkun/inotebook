@@ -23,7 +23,7 @@ const Signup = () => {
 }
 
     const response = await fetch(
-      "http://localhost:5000/api/auth",
+      `https://inotebook-backend-cxsu.onrender.com/api/auth/login`,
       {
         method: "POST",
         headers: {
